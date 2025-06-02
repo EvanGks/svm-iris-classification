@@ -1,0 +1,15 @@
+# requirements.txt - Python dependencies for the SVM Iris Classification Project
+#
+# This file lists all Python packages required to run the SVM.ipynb notebook.
+# Install with: pip install -r requirements.txt
+
+# Core scientific computing libraries
+numpy>=1.18.0      # Fundamental package for numerical computations
+pandas>=1.0.0      # Data structures and data analysis tools
+
+# Visualization libraries
+matplotlib>=3.0.0  # Plotting and visualization
+seaborn>=0.10.0    # Statistical data visualization (built on matplotlib)
+
+# Machine learning library
+scikit-learn>=0.22.0  # Machine learning algorithms and tools (SVM, preprocessing, etc.)
