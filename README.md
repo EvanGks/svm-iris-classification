@@ -56,6 +56,9 @@ Support Vector Machines/
 ├── requirements.txt  # Python dependencies
 ├── LICENSE           # MIT License file
 ├── README.md         # Project documentation (this file)
+├── figure/           # Folder containing result images
+│   ├── confusion_matrix.png         # Confusion matrix heatmap
+│   └── svm_ decision_boundary.png   # SVM decision boundary plot
 └── .gitignore        # Git ignore file for Python/Jupyter projects
 ```
 
@@ -135,15 +138,28 @@ Support Vector Machines/
 ## 📊 Results
 
 ### Model Metrics
-- **Accuracy:** ~0.98
-- **Precision:** ~0.98
-- **Recall:** ~0.98
-- **F1-Score:** ~0.98
+- **Best Parameters:** `{ 'C': 0.1, 'gamma': 'scale', 'kernel': 'linear' }`
+- **Accuracy:** 0.9111
+
+#### Classification Report
+```
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        15
+           1       0.82      0.93      0.87        15
+           2       0.92      0.80      0.86        15
+
+    accuracy                           0.91        45
+   macro avg       0.92      0.91      0.91        45
+weighted avg       0.92      0.91      0.91        45
+```
 
 ### Visualizations
 - **Pairplot:** Feature relationships and class separability
 - **Decision Boundary:** 2D visualization using petal length and width
+  ![SVM Decision Boundary](figure/svm_%20decision_boundary.png)
 - **Confusion Matrix:** Model performance on test set
+  ![Confusion Matrix](figure/confusion_matrix.png)
 
 *All plots and metrics are available in the [Kaggle notebook](https://www.kaggle.com/code/evangelosgakias/support-vector-machine-iris-dataset) for full transparency.*
 
@@ -179,6 +195,7 @@ For questions or feedback, please reach out via:
 - **GitHub:** [EvanGks](https://github.com/EvanGks)
 - **X (Twitter):** [@Evan6471133782](https://x.com/Evan6471133782)
 - **LinkedIn:** [Evangelos Gakias](https://www.linkedin.com/in/evangelos-gakias-346a9072)
+- **Kaggle:** [evangelosgakias](https://www.kaggle.com/evangelosgakias)
 - **Email:** [vgakias_@hotmail.com](mailto:vgakias_@hotmail.com)
 
 ---
