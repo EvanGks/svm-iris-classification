@@ -157,8 +157,11 @@ weighted avg       0.92      0.91      0.91        45
 ### Visualizations
 - **Pairplot:** Feature relationships and class separability
 - **Decision Boundary:** 2D visualization using petal length and width
-  ![SVM Decision Boundary](figure/svm_%20decision_boundary.png)
+
+  ![SVM Decision Boundary](figure/svm_decision_boundary.png)
+  
 - **Confusion Matrix:** Model performance on test set
+
   ![Confusion Matrix](figure/confusion_matrix.png)
 
 *All plots and metrics are available in the [Kaggle notebook](https://www.kaggle.com/code/evangelosgakias/support-vector-machine-iris-dataset) for full transparency.*
